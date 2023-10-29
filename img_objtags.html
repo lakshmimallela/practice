@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>image and object tags example</title>
+    </head>
+    <body>
+        <h1>html image and object tags example</h1>
+        <!--image tag-->
+        <img src="./img_vid/paint.png" alt="sample image" width="300" height="200">
+        <!-- image map with area tags-->
+        <img src="./img_vid/paint.png" alt="world map" usemap="#worldmap" width="800" height="400">
+        <map name="worldmap">
+            <area shape="rect" coords="100,50,300,200" href="asia.html" alt="asia">  
+            <area shape="circle" coords="500,200,80" href="africa.html" alt="africa"> 
+            <area shape="poly" coords="600,100,700,50,750,150" href="europe.html" alt="europe"> 
+              </map>
+              <!-- object tag-->
+              <object data="./img_vid/iiitdmk convovocation 2022 trailer.mpd" width="400" height="300">
+                <param name="autoplay" value="true">
+                <param name="controls" value="true">
+              </object>
+    </body>
+</html>
