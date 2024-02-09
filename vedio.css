@@ -1,0 +1,48 @@
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 200%;
+    width:99.9%;
+    text-align: center;
+}
+.container
+{
+text-align: center;
+}
+.detailed-view-bg-container {
+  text-align: center;
+  background-image:rgb(255, 255, 255);
+  height: 120vh;
+  width: 150vh;
+ background-size: cover;
+}
+.detailed-view-heading {
+  text-align: center;
+  color:block;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px;
+}
+.detailed-view-card-container {
+  background-color: rgb(27, 20, 20);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 30px;
+}
+.detailed-view-card-heading {
+  color:black;
+  text-align:center;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+}
+.detailed-view-card-description {
+  color:black;
+  text-align: left;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.detailed-view-card-text-container {
+  padding: 25px;
+}
